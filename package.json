@@ -1,0 +1,41 @@
+{
+  "name": "n",
+  "description": "A serverless renderer for Notion.so pages",
+  "license": "GPL-3.0",
+  "author": {
+    "name": "Jake Rullman",
+    "email": "jake@rullman.org",
+    "url": "https://jake.dev"
+  },
+  "homepage": "https://github.com/jakerullman/n#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakerullman/n.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jakerullman/n/issues"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "start": "next start"
+  },
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.3.4",
+    "prismic-javascript": "^2.7.1",
+    "prismic-reactjs": "^1.3.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.2",
+    "@types/node": "^13.11.1",
+    "@types/react": "^16.9.34",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^1.2.0",
+    "typescript": "^3.8.3"
+  }
+}
